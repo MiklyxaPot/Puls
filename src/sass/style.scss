@@ -1,9 +1,16 @@
 @import 'base/variables';
+@import 'block/promo';
+@import'block/_header';
+@import'block/_buttons';
+@import 'base/normal';
+
+
 *{
    font-family: 'MuseoModerno', sans-serif;
 }
 
 .container{
-   max-width: 950px;
+   max-width: 980px;
    margin: 0 auto;
+   padding: 0 15px;
 }
