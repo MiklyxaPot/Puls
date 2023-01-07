@@ -9,6 +9,7 @@
       }
    }
 
+
    &__official {
       font-weight: 500;
       font-size: 12px;
@@ -16,9 +17,10 @@
       color: #FFFFFF; 
       text-align: center;
       span{
-         display: block;   
+         display: block;  
+         margin-top: 8px;
          font-size: 18px;
-         line-height: 62%;
+         line-height: 100%;
       }
    }
 
@@ -34,8 +36,29 @@
       font-size: 18px;
       line-height: 18px;
       color: #FFFFFF;
+      margin-bottom: 8px;
       &:hover{
          color:#FFFFFF;
+      }
+   }
+}
+
+@media(max-width: 768px){
+   .header {
+      &__logo {
+         width: 220px;
+      }
+   
+   
+      &__official {
+         font-size: 10px;
+         span{
+            font-size: 15px;
+         }
+      }
+      
+      &__phone {
+         font-size: 12px;
       }
    }
 }
