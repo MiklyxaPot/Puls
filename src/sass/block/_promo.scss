@@ -65,6 +65,7 @@
 
 @media (max-width: 768px){
    .promo {
+      padding: 21px 0px 70px 0px; 
       &__header{
          font-size: 30px;
       }
@@ -83,6 +84,5 @@
          width: 100px;
          font-size: 12px;
       }
-        
 
 }}
