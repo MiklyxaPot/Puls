@@ -8,6 +8,9 @@
    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
    <link rel="stylesheet" href="css/font.css">
    <link rel="stylesheet" href="css/style.min.css">
+   <!-- <link rel="stylesheet" href="css/slick.css"> -->
+   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css"> -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
    <title>Puls</title>
 </head>
 
@@ -86,17 +89,47 @@
                минут</div>
             <form class="feed-form" action="#">
                <input name="name" required type="text" placeholder="Ваше имя">
-               <input  name="phone" required type="number" placeholder="Ваш Телефон">
+               <input name="phone" required type="number" placeholder="Ваш Телефон">
                <input name="email" required type="email" placeholder="Ваше E-mail">
                <!-- <input type="submit" value="заказать кОНСУЛЬТАЦИЮ"> -->
                <button class="button button_submit">заказать кОНСУЛЬТАЦИЮ</button>
             </form>
-
          </div>
-
+      </section>
+      <section class="carousel">
+         <div class="container">
+            <div class="carousel__inner swiper">
+               
+               <!-- Additional required wrapper -->
+               <div class="carousel__wrapper swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="carousel__slide swiper-slide">
+                     <div class="carousel__image">
+                        <img src="img/slide/01.jpg" alt="slide">
+                     </div>
+                  </div>
+                  <div class="carousel__slide swiper-slide">
+                     <div class="carousel__image">
+                        <img src="img/slide/02.jpg" alt="slide">
+                     </div>
+                  </div>
+                  <div class="carousel__slide swiper-slide">
+                     <div class="carousel__image">
+                        <img src="img/slide/03.jpg" alt="slide">
+                     </div>
+                  </div>
+               </div>
+               <!-- <div class="swiper-button-prev"><img src="icons/left.svg"></div>
+               <div class="swiper-button-next"><img src="icons/right.svg"></div> -->
+            </div>
+            <button type="button" class="prev"><img src="icons/left.svg"></button>
+            <button type="button" class="next"><img src="icons/right.svg"></button>
+         </div>
       </section>
    </main>
    <footer class="footer"></footer>
+   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+   <script src="js/script.js"></script>
 </body>
 
 </html>

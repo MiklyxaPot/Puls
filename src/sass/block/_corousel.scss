@@ -1,0 +1,43 @@
+.carousel{
+   padding: 81px 0px;
+   &__inner{
+      max-width: 750px;
+      margin: 0 auto;
+      position: relative;
+   }
+  
+   &__wrapper {
+   }
+
+   &__slide {
+   }
+
+   &__image img{
+      max-width: 100%;
+   }
+  
+}
+
+
+.next, .prev{
+   position: absolute;
+   z-index: 10;
+   top: 50%;
+   left: auto;
+   right: 0px;
+   transform: translateY(-50%);
+   width: 31px;  
+   height: 50px; 
+   border: none;
+   background: #fff;
+}
+
+.prev{   
+   left: 0px;
+}
+@media (max-width: 850px){
+   .next, .prev{
+      display: none;
+   }
+}
+
