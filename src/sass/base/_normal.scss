@@ -18,6 +18,9 @@ a:focus,a:active{outline: none;}
 
 nav,footer,header,aside{display: block;}
 /* дулает эти теги блочными  */
+::-webkit-scrollbar {
+   width: 0;
+ }
 
 html,body{
    height: 100%;
@@ -30,6 +33,7 @@ html,body{
    -ms-text-size-adjust: 100%;
    -moz-text-size-adjust: 100%;
    -webkit-text-size-adjust: 100%;
+  
 }
 /* уравнтваем поведение шоифтов на разных платформах и браузерах, заприщает самовольное увеличение шрифта  */
 
