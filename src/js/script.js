@@ -82,6 +82,16 @@ $(document).ready(function(){
          $('.overlay, #order').fadeIn('slow');
       });
    });
+
+   $('#colsultation-form').validate();
+   $('#consultation form').validate({
+      rules:{
+         name:"required",
+         phone:"required",
+         email:"required",
+      }
+   });
+   $('#order form').validate();
 });
 
 
